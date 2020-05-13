@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Oval" d="M14,16l-4-4-.5-1L11,9.5l1,.5,4,4v1a1,1,0,0,1-1,1ZM0,6a6,6,0,1,1,6,6A6.007,6.007,0,0,1,0,6ZM2,6A4,4,0,1,0,6,2,4,4,0,0,0,2,6Z" transform="translate(0)" fill="rgba(0,0,0,0)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_594" data-name="Group 594" clip-path="url(#clip-path)">
+    <g id="Colors_Black-1" data-name="Colors/Black-1">
+      <rect id="Colors_Black-1_background" data-name="Colors/Black-1 background" width="16" height="16" fill="rgba(0,0,0,0)"/>
+      <rect id="Rectangle" width="16" height="16" fill="#ccc"/>
+    </g>
+  </g>
+</svg>

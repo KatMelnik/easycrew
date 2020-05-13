@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="bootstrap-4.3.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet"  href="style/style.css">
+    <title>POST A JOB</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light header-log__in">
+    <div class="wrap-header">
+        <a class="navbar-brand" href="#"></a>
+        <div class="mobile-wrapper">
+            <a class="navbar-brand logo-mobile" href="#"></a>
+            <div class="nav-item dropdown mobile-leng">
+                <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="top-menu-lang-icon eng-flag"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">Русский</a>
+                    <a class="dropdown-item" href="#">Eesti</a>
+                    <a class="dropdown-item" href="#">Latviešu</a>
+                    <a class="dropdown-item" href="#">Lietuvių</a>
+                    <a class="dropdown-item" href="#">Deutsch</a>
+                    <a class="dropdown-item" href="#">Français</a>
+                    <a class="dropdown-item" href="#">Suomeksi</a>
+                    <a class="dropdown-item" href="#">Italiano</a>
+                    <a class="dropdown-item" href="#">Español</a>
+                </div>
+            </div>
+            <div class="search-btn__mobile"></div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="top-menu-lang-icon eng-flag"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">Русский</a>
+                        <a class="dropdown-item" href="#">Eesti</a>
+                        <a class="dropdown-item" href="#">Latviešu</a>
+                        <a class="dropdown-item" href="#">Lietuvių</a>
+                        <a class="dropdown-item" href="#">Deutsch</a>
+                        <a class="dropdown-item" href="#">Français</a>
+                        <a class="dropdown-item" href="#">Suomeksi</a>
+                        <a class="dropdown-item" href="#">Italiano</a>
+                        <a class="dropdown-item" href="#">Español</a>
+                    </div>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search"
+                           placeholder="Search freelancers, projects, jobs, agencies" aria-label="Search">
+                    <button class="header-search__btn" type="submit"></button>
+                </form>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">AGENCIES</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">FREELANCERS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">TRAINEES</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-log__wrap log-in">
+            <div class="header-log__imgWrap">
+                <a href="https://google.com"><img src="img/userAvatar.png" alt="title"></a>
+            </div>
+            <div class="header-log__email">
+                <span class="header-log__emailCount header-log__emailCount__active">5</span>
+            </div>
+            <div class="dropdown">
+                  <span class="nav-link header-log__btnWrap" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                  </span>
+                <div class="dropdown-menu menu-header__mob" aria-labelledby="navbarDropdown">
+                    <div class="freelanser-menu">
+                        <ul class="freelanser-menu--list">
+                            <li class="header-sign__btn">Sign out</li>
+                            <li class="freelanser-menu__item"><a href="#">My Profile </a></li>
+                            <li class="freelanser-menu__item"><a href="#">Messages <span
+                                    class="menu-messages__count">35</span></a></li>
+                            <li class="freelanser-menu__item"><a href="#">My CREW </a>
+                            </li>
+                            <li class="freelanser-menu__item"><a href="#">My Projects </a></li>
+                            <li class="freelanser-menu__item"><a href="#">My Jobs </a></li>
+                            <li class="freelanser-menu__item"><a href="#">My Subscription</a></li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">AGENCIES</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">FREELANCERS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">TRAINEES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+    <div class="container main-wrap post-job">
+        <div class="row">
+            <div class="col-lg-3 d-flex flex-column align-items-center pr-0" style="
+    max-width: 328px;"> 
+            </div>
+            <div class="col-lg-7 post-project__main pr-0">
+                <h1 class="post-project__main-title">Post New Job</h1>    
+                <div class="post-project__main-block d-flex flex-column">
+                    <h2 class="title-block">Title:</h2>
+                    <label for="title-post"></label>
+                    <input type="text" placeholder="Web Designer needed" id="title-post" name="title-post" class="post-project__main-block__title"></input>
+                </div>
+                <div class="post-project__main-block d-flex flex-column">
+                    <h2 class="title-block">Description:</h2>
+                    <label for="descr-post"></label>
+                    <textarea type="text" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident" id="descr-post" name="desc-post" class="post-project__main-block__desc"></textarea>
+                </div>
+                <div class="post-project__main-block d-flex flex-column">
+                    <h2 class="title-block">Upload photo:</h2>
+                    <div class="post-project__main-block__containerFiles d-flex flex-column flex-sm-row mb-4">
+                        <div class="post-project__main-block__containerFiles-item d-flex flex-column pb-2 pb-sm-0">
+                            <div class="item__upload-photo uploaded d-flex justify-content-center align-items-center ">
+                                <span>+</span>
+                            </div>
+                            <div class="d-flex justify-content-sm-between align-items-end up-file">File….pdf<span class="pl-5 pl-sm-0">uploaded</span>
+                            </div>
+                        </div>
+                        
+                        <div class="post-project__main-block__containerFiles-item d-flex flex-column pb-2 pb-sm-0">
+                            <label class="item__upload-photo d-flex justify-content-center align-items-center">
+                                <input type="file">
+                            </label>
+                            <span></span>
+                        </div>
+                    
+                        <div class="post-project__main-block__containerFiles-item d-flex flex-column pb-2 pb-sm-0">
+                           <label class="item__upload-photo d-flex justify-content-center align-items-center">
+                                <input type="file">
+                            </label>
+                            <span></span>
+                        </div>
+                       
+                         <div class="post-project__main-block__containerFiles-item d-flex flex-column pb-2 pb-sm-0">
+                            <label class="item__upload-photo d-flex justify-content-center align-items-center">
+                                <input type="file">
+                            </label>
+                            <span></span>
+                        </div>
+                      
+                    </div> 
+                </div>        
+                <div class="post-project__main-block d-flex flex-column">
+                    <h2 class="title-block">Main Specialty:</h2>
+                    <select  id="specialty" class="post-project__main-block__specialty">
+                            <option selected>Main Specialty</option>
+                    </select>
+                </div>  
+                 <div class="post-project__main-block d-flex flex-column">
+                    <h2 class="title-block">Job for:</h2>
+                    <form class="d-flex flex-column flex-sm-row justify-content-between">
+                        <div class="form-check-inline pb-2 pb-sm-0 ">
+                            <input type="radio" class="form-check-input" id="Freelancer" name="optradio" value="Freelancer" checked>
+                            <label class="form-check-label" for="Freelancer"> Freelancer</label>
+                        </div>
+                        <div class="form-check-inline pb-2 pb-sm-0 ">
+                            <input type="radio" class="form-check-input" id="Agency" name="optradio" value="Agency">
+                            <label class="form-check-label" for="Agency"> Agency</label>
+                        </div>
+                        <div class="form-check-inline pb-2 pb-sm-0 ">
+                            <input type="radio" class="form-check-input" id="Trainee" name="optradio" value="Trainee">
+                            <label class="form-check-label" for="Trainee">Trainee</label>
+                        </div>
+                        <div class="form-check-inline pb-2 pb-sm-0">
+                            <input type="radio" class="form-check-input" id="FreelancerAgency" name="optradio" value="FreelancerAgency">
+                            <label class="form-check-label" for="FreelancerAgency">Freelancer/Agency</label>
+                        </div>
+                    </form>
+                </div>    
+                <div class="post-project__main-block d-flex flex-column">
+                    <h2 class="title-block">Skills needed:</h2>
+                    <ul>
+                        <li data-target="#Programming">
+                            <input type="checkbox" class="skills-check" name="programming" id="programming">
+                            <label class="post-project__main-block__item" for="programming"></label>
+                            <span class="post-project__main-block__main">Programming <span class="item-num"> (all)</span> </span>
+                            <ul class="post-project__main-block__slills" id="Programming" style="height: 0px;">
+                                <li>
+                                    <input type="checkbox" name="front-end-developer" id="front-end-developer">
+                                    <label class="post-project__main-block__item" for="front-end-developer"></label>
+                                    <span>Front-end developer</span><span class="item-num"> (332)</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="back-end-developer" id="back-end-developer">
+                                    <label class="post-project__main-block__item" for="back-end-developer"></label>
+                                    <span>Back-end developer</span><span class="item-num"> (204)</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="full-stack-unicom" id="full-stack-unicom">
+                                    <label class="post-project__main-block__item" for="full-stack-unicom"></label>
+                                    <span>Full-stack unicom</span> <span class="item-num"> (2)</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-target="#Design">
+                            <input type="checkbox" class="skills-check" name="design" id="design">
+                            <label class="post-project__main-block__item" for="design"></label>
+                            <span class="post-project__main-block__main">Design<span class="item-num"> </span></span>
+                            <ul class="post-project__main-block__slills" id="Design">
+                                <li>
+                                    <input type="checkbox" name="ux-ui" id="ux-ui">
+                                    <label class="post-project__main-block__item" for="ux-ui"></label>
+                                    <span>UX/UI</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="illustration" id="illustration">
+                                    <label class="post-project__main-block__item" for="illustration"></label>
+                                    <span>Illustration</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-target="#Copyright">
+                            <input type="checkbox" class="skills-check" name="copyright-and-translation" id="copyright-and-translation">
+                            <label class="post-project__main-block__item" for="copyright-and-translation"></label>
+                            <span class="post-project__main-block__main">Copyright and translation<span class="item-num"> </span></span>
+                            <ul class="post-project__main-block__slills" id="Copyright">
+                                <li>
+                                    <input type="checkbox" name="t1" id="t1">
+                                    <label class="post-project__main-block__item" for="t1"></label>
+                                    <span>text</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="t2" id="t2">
+                                    <label class="post-project__main-block__item" for="t2"></label>
+                                    <span>text</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-target="#Seo">
+                            <input type="checkbox" class="skills-check" name="seo-and-marketing" id="seo-and-marketing">
+                            <label class="post-project__main-block__item" for="seo-and-marketing"></label>
+                            <span class="post-project__main-block__main">SEO and marketing<span class="item-num"> </span></span>
+                            <ul class="post-project__main-block__slills" id="Seo">
+                                <li>
+                                    <input type="checkbox" name="t3" id="t3">
+                                    <label class="post-project__main-block__item" for="t3"></label>
+                                    <span>text</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="t4" id="t4">
+                                    <label class="post-project__main-block__item" for="t4"></label>
+                                    <span>text</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="post-project__main-block d-flex flex-column">
+                    <h2 class="title-block">Languages needed:</h2>
+                    <form class="d-flex flex-column">
+                        <div class="d-flex align-items-center">
+                            <select  id="lang1" class="post-project__main-block__lang w-100">
+                                <option selected>Estonian</option>
+                                <option>English</option>
+                                <option>Russian</option>
+                            </select> 
+                            <span class="post-project__main-block__lang-close"></span>  
+                        </div> 
+                        <div class="d-flex align-items-center">
+                            <select  id="lang1" class="post-project__main-block__lang w-100">
+                                <option>Estonian</option>
+                                <option selected>English</option>
+                                <option>Russian</option>
+                            </select>  
+                            <span class="post-project__main-block__lang-close"></span>  
+                        </div>  
+                        <div class="d-flex align-items-center">
+                            <select  id="lang1" class="post-project__main-block__lang w-100">
+                                <option>Estonian</option>
+                                <option>English</option>
+                                <option selected>Russian</option>
+                            </select>  
+                            <span class="post-project__main-block__lang-close"></span>  
+                        </div>  
+                        <div class="post-add-lang">Add another language</div>
+                    </form>
+                </div>  
+                <div class="post-project__main-block d-flex flex-column">
+                    <h2 class="title-block">Job Duration:</h2>
+                    <form class="d-flex flex-column flex-sm-row align-items-sm-center">
+                        <div class="d-flex">
+                       <select id="count" class="post-project__main-block__count">
+                            <option selected>1</option>
+                            <option >2</option>
+                            <option >3</option>
+                            <option >4</option>
+                            <option >5</option>
+                            <option >6</option>
+                            <option >7</option>
+                            <option >8</option>
+                            <option >9</option>
+                            <option >10</option>
+                            <option >11</option>
+                            <option >12</option>
+                            <option >13</option>
+                            <option >14</option>
+                            <option >15</option>
+                            <option >16</option>
+                            <option >17</option>
+                            <option >18</option>
+                            <option >19</option>
+                            <option >20</option>
+                            <option >21</option>
+                            <option >22</option>
+                            <option >23</option>
+                            <option >24</option>
+                            <option >25</option>
+                            <option >26</option>
+                            <option >27</option>
+                            <option >28</option>
+                            <option >29</option>
+                            <option >30</option>
+                            <option >31</option>
+                            <option >32</option>
+                            <option >33</option>
+                            <option >34</option>
+                            <option >35</option>
+                            <option >36</option>
+                            <option >37</option>
+                            <option >38</option>
+                            <option >39</option>
+                            <option >40</option>
+                            <option >41</option>
+                            <option >42</option>
+                            <option >43</option>
+                            <option >44</option>
+                            <option >45</option>
+                            <option >46</option>
+                            <option >47</option>
+                            <option >48</option>
+                            <option >49</option>
+                            <option >50</option>
+                            <option >51</option>
+                            <option >52</option>
+                            <option >53</option>
+                            <option >54</option>
+                            <option >55</option>
+                            <option >56</option>
+                            <option >57</option>
+                            <option >58</option>
+                            <option >59</option>
+                            <option >60</option>
+                            <option >61</option>
+                            <option >62</option>
+                            <option >63</option>
+                            <option >64</option>
+                            <option >65</option>
+                            <option >66</option>
+                            <option >67</option>
+                            <option >68</option>
+                            <option >69</option>
+                            <option >70</option>
+                            <option >71</option>
+                            <option >72</option>
+                            <option >73</option>
+                            <option >74</option>
+                            <option >75</option>
+                            <option >76</option>
+                            <option >77</option>
+                            <option >78</option>
+                            <option >79</option>
+                            <option >80</option>
+                            <option >81</option>
+                            <option >82</option>
+                            <option >83</option>
+                            <option >84</option>
+                            <option >85</option>
+                            <option >86</option>
+                            <option >87</option>
+                            <option >88</option>
+                            <option >89</option>
+                            <option >90</option>
+                            <option >91</option>
+                            <option >92</option>
+                            <option >93</option>
+                            <option >94</option>
+                            <option >95</option>
+                            <option >96</option>
+                            <option >97</option>
+                            <option >98</option>
+                            <option >99</option>
+                            <option >100</option>
+                        </select>
+                        <select id="workdate" class="post-project__main-block__workdate">
+                            <option selected>Days</option>
+                            <option >Month</option>
+                            <option >Years</option>
+                        </select>
+                        </div>
+                        <div class="d-flex pl-0 pl-sm-4 pt-4 pt-sm-0">
+                            <input type="checkbox" class="form-check-box" id="Unlimited" name="check" value="Unlimited">
+                            <label class="form-check-box-label" for="Unlimited">Unlimited</label>
+                        </div>
+                    </form>
+                </div>    
+                <div class="post-project__main-block d-flex flex-column">
+                    <h2 class="title-block">Apply before:</h2>
+                    <form class="d-flex">
+                        <select  id="date" class="post-project__main-block__date">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option selected>31</option>
+                        </select>
+                        <select  id="month" class="post-project__main-block__month">
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option selected>July</option>
+                            <option>August</option>
+                            <option>September</optvtion>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                        <select id="month" class="post-project__main-block__year">
+                            <option>2013</option>
+                            <option>2014</option>
+                            <option>2015</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                            <option>2018</option>
+                            <option selected>2019</option>
+                        </select>
+                    </form>
+                       
+                </div>                  
+                <div class="post-project__main-block d-flex flex-column">
+                    <h2 class="title-block">Salary:</h2>
+                    <div class="d-flex align-sm-items-center flex-column flex-sm-row">
+                        <label class="position-relative" for="job-salary">
+                            <input type="text" name="post-budget" class="post-project__main-block__budget" placeholder="300" id="job-salary"/>
+                            <span class="post-project__main-block__priceIcon"></span> 
+                        </label>
+                        <form class="d-flex pl-sm-5 pt-3 pt-sm-0">
+                            <div class="form-check-inline d-flex flex-column mr-4">
+                                <input type="radio" class="form-check-input" id="Monthly" name="optradio" value="Monthly">
+                                <label class="form-check-label" for="Monthly">Monthly</label>
+                            </div>
+                            <div class="form-check-inline d-flex flex-column">
+                                <input type="radio" class="form-check-input" id="Neto" name="optradio" value="Neto" checked>
+                                <label class="form-check-label" for="Neto">Neto</label>
+                            </div>
+                    </form>
+                    </div>     
+                </div>
+                <div class="post-project__main-block d-flex flex-column">
+                    <h2 class="title-block__grey">Job location:</h2>
+                    <div class="d-flex flex-column flex-sm-row justify-content-sm-between">
+                        <div class="d-flex flex-column w-100 mr-5">
+                            <h2 class="title-block pt-0">Country:</h2>
+                            <select id="country" class="post-project__main-block__location">
+                                <option selected>Estonia</option>
+                            </select>
+                        </div>
+                        <div class="d-flex flex-column w-100 pt-3 pt-sm-0">
+                            <h2 class="title-block pt-0">City:</h2>
+                            <select id="city" class="post-project__main-block__location">
+                                <option selected>Tallin</option>
+                            </select>
+                        </div>
+                    </div>
+                </div> 
+                <div class="post-project__main-block d-flex flex-column mb-5">
+                    <h2 class="title-block">CV required:</h2>
+                    <form class="d-flex">
+                        <div class="form-check-inline d-flex flex-column mr-5">
+                            <input type="radio" class="form-check-input" id="Yes" name="optradio" value="Yes">
+                            <label class="form-check-label" for="Yes">Yes</label>
+                        </div>
+                        <div class="form-check-inline d-flex flex-column ml-4">
+                            <input type="radio" class="form-check-input" id="No" name="optradio" value="No" checked>
+                            <label class="form-check-label" for="No">No</label>
+                        </div>
+                    </form>
+                </div>    
+                <div class="post-project__main-btn d-flex justify-content-between">
+                    <div class="post-project__cancel-btn">Cancel</div>
+                    <div class="post-project__save-btn">Save</div>
+                </div> 
+            </div>
+            <div class="col-lg-2 d-flex flex-column align-items-center pr-0"> 
+            </div>
+        </div>  
+    </div>  
+    <footer>
+          <div class="container">
+              <div class="row">
+                <div class="col-lg-2 col-md-12 text-center">
+                    <div class="footer-create__btn">Create Protfolio</div>
+                    <div class="footer-freelanser__btn">Hire Freelancer</div>
+                    <a class="footer-link" href="#">F.A.Q.</a>
+                    <a class="footer-link" href="#">PRIVACY POLICY</a>
+                    <a class="footer-link" href="#">Terms and Conditions</a>
+                </div>
+                <div class="col-lg-1 col-md-0"></div>
+                <div class="col-lg-3 col-md-12">
+                    <h4 class="footer-list__title">Freelancers & Agencies</h4>
+                    <ul class="footer-list__wrap">
+                        <li class="footer-list__item"><a href="#">Create Portfolio</a></li>
+                        <li class="footer-list__item"><a href="#">Find Project</a></li>
+                        <li class="footer-list__item"><a href="#">Find Job</a></li>
+                        <li class="footer-list__item"><a href="#">EASYCREW Chat <span class="telegram-icon"></span></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                        <h4 class="footer-list__title">Employer</h4>
+                        <ul class="footer-list__wrap">
+                            <li class="footer-list__item"><a href="#">Hire Freelancer</a></li>
+                            <li class="footer-list__item"><a href="#">Post Project</a></li>
+                            <li class="footer-list__item"><a href="#">Post Job</a></li>
+                        </ul>
+                </div>
+                <div class="col-lg-1 col-md-0"></div>
+                <div class="col-lg-3 col-md-12">
+                        <h4 class="footer-list__title">About</h4>
+                        <ul class="footer-list__wrap">
+                            <li class="footer-list__item"><a href="#">How EASYCREW works</a></li>
+                            <li class="footer-list__item"><a href="#">Freelance HOW-TO</a></li>
+                            <li class="footer-list__item"><a href="#">Pricing</a></li>
+                            <li class="footer-list__item"><a href="#">Blog</a></li>
+                            <li class="footer-list__item"><a href="#">Support and contacts</a></li>
+                        </ul>
+                </div>
+  
+              </div>
+              <div class="row footer-bottom__wrap">
+                <div class="col-lg-4">
+                    <div class="footer-appBtn__wrap">
+                        <a href="#" class="footer-appBtn__google"></a>
+                        <a href="#" class="footer-appBtn__apple"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-social__wrap">
+                        <a href="#" class="footer-social__item social-telegram"></a>
+                        <a href="#" class="footer-social__item social-facebook"></a>
+                        <a href="#" class="footer-social__item social-instagram"></a>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 align-center">
+                    <h4 class="footer-copyright">EASYCREW OÜ  | All Rights Reserved</h4>
+                </div>
+              </div>
+          </div>
+    </footer>
+  
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+      <script src="js/main.js"></script>
+  </body>
+  </body>
+  </html>

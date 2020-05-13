@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-light header-log__in">
+    <div class="wrap-header">
+        <a class="navbar-brand" href="#"></a>
+        <div class="mobile-wrapper">
+            <a class="navbar-brand logo-mobile" href="#"></a>
+            <div class="nav-item dropdown mobile-leng">
+                <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="top-menu-lang-icon eng-flag"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">Русский</a>
+                    <a class="dropdown-item" href="#">Eesti</a>
+                    <a class="dropdown-item" href="#">Latviešu</a>
+                    <a class="dropdown-item" href="#">Lietuvių</a>
+                    <a class="dropdown-item" href="#">Deutsch</a>
+                    <a class="dropdown-item" href="#">Français</a>
+                    <a class="dropdown-item" href="#">Suomeksi</a>
+                    <a class="dropdown-item" href="#">Italiano</a>
+                    <a class="dropdown-item" href="#">Español</a>
+                </div>
+            </div>
+            <div class="search-btn__mobile"></div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="top-menu-lang-icon eng-flag"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">Русский</a>
+                        <a class="dropdown-item" href="#">Eesti</a>
+                        <a class="dropdown-item" href="#">Latviešu</a>
+                        <a class="dropdown-item" href="#">Lietuvių</a>
+                        <a class="dropdown-item" href="#">Deutsch</a>
+                        <a class="dropdown-item" href="#">Français</a>
+                        <a class="dropdown-item" href="#">Suomeksi</a>
+                        <a class="dropdown-item" href="#">Italiano</a>
+                        <a class="dropdown-item" href="#">Español</a>
+                    </div>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search"
+                           placeholder="Search freelancers, projects, jobs, agencies" aria-label="Search">
+                    <button class="header-search__btn" type="submit"></button>
+                </form>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">AGENCIES</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">FREELANCERS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">TRAINEES</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="header-log__wrap log-in">
+
+            <div class="header-log__imgWrap">
+                <a href="#"><img src="img/userAvatar.png" alt="title"></a>
+            </div>
+
+            <div class="header-log__email">
+                <span class="header-log__emailCount header-log__emailCount__active">5</span>
+            </div>
+
+            <div class="dropdown">
+                  <span class="nav-link header-log__btnWrap" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                  </span>
+                <div class="dropdown-menu menu-header__mob" aria-labelledby="navbarDropdown">
+                    <div class="freelanser-menu">
+                        <ul class="freelanser-menu--list">
+                            <li class="header-sign__btn">Sign out</li>
+                            <li class="freelanser-menu__item item-active"><a href="#">My Profile</a></li>
+                            <li class="freelanser-menu__item"><a href="#">Messages </a></li>
+                            <li class="freelanser-menu__item"><a href="#">My CREW </a>
+                            </li>
+                            <li class="freelanser-menu__item"><a href="#">My Projects </a></li>
+                            <li class="freelanser-menu__item"><a href="#">My Jobs </a></li>
+                            <li class="freelanser-menu__item"><a href="#">My Subscription</a></li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">AGENCIES</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">FREELANCERS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">TRAINEES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</nav>
+
+
+<div class="container " style="margin-top: 133px;">
+
+    <div class="row">
+
+        <div class="col-xl-2 col-lg-12">
+            <div class="mobile-back-btnWrap"><span class="back-btn__icon"></span>back</div>
+            <div class="freelanser-avatar--wrap">
+                <span class="freelanser-active"></span>
+                <img src="img/Avatar.png" alt="title" class="freelanser-avatar">
+            </div>
+
+        </div>
+
+        <div class="col-xl-5 col-lg-5 freelanser-wrap--padding">
+            <div class="back-btnWrap"><span class="back-btn__icon"></span>back</div>
+            <div class="freelanser-retingWrap">
+                <div class="freelanser-starBox">
+                    <span class="freelanser-star100"></span>
+                    <span class="freelanser-star100"></span>
+                    <span class="freelanser-star100"></span>
+                    <span class="freelanser-star100"></span>
+                    <span class="freelanser-star50"></span>
+                    <span class="freelanser-star__reting">4,5</span>
+                </div>
+                <div class="freelanser-reviewsBox">
+                    (<span class="reelanser-reviews__count">68</span>) reviews
+                </div>
+                <div class="freelanser-trophysBox">
+                    <span class="freelanser-trophy__icon"></span>
+                </div>
+            </div>
+            <h2 class="freelanser-name">Mari-Liis Toomingas</h2>
+
+            <span class="freelanser-status freelanser-status__online">online</span>
+
+            <div class="freelanser-message--btn"><i class="message-btn--icon"></i> message</div>
+
+            <div class="favorite-btn"></div>
+
+            <div class="specialty-box">
+                <h3 class="freelanser-title">Specialty:</h3>
+                <div class="specialty-itemWrap">
+                    <span class="specialty-item">Graphic Design</span>
+                    <span class="specialty-item">Web Design</span>
+                    <span class="specialty-item">Identity Design</span>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3 class="freelanser-title">Skills:</h3>
+                <div class="skills-itemWrap">
+                    <span class="skills-item">Java</span>
+                    <span class="skills-item">JSON</span>
+                    <span class="skills-item">jQuery</span>
+                    <span class="skills-item">HTML5</span>
+                    <span class="skills-item">Git</span>
+                    <span class="skills-item">JavaScript</span>
+                    <span class="skills-item">Angular JS</span>
+                    <span class="skills-item">XML</span>
+                    <span class="skills-item">React.js</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-xl-1 col-lg-1">
+
+        </div>
+
+        <div class="col-xl-4 col-lg-5 freelanser-page--info">
+            <div class="freelanser-planWrap">My role: <span class="freelanser-plan freelanser-role">Freelancer</s><span
+                    class="freelanser-plan__icon"></span></div>
+            <div class="freelanse-availabilityWrap">Availability: <span
+                    class="freelanse-availability__status">BUSY</span> <span class="freelanse-until__date">(until 23.07.2019)</span>
+            </div>
+            <div class="freelanser-priceh">Price: <span class="price-hourWrap"><span class="price-hour">30</span> Eur/h</span>
+            </div>
+            <div class="freelanser-location">Location: <span class="location-country">Pärnu, Estonia</span></div>
+            <div class="freelanser-preferrerCountry">Preferred country: <span class="freelanser-preferrerCountry__item">Estonia, Larvia</span>
+            </div>
+            <div class="freelanser-languages">Speaks: <span class="languages-est"></span><span
+                    class="languages-rus"></span><span class="languages-english"></span></div>
+
+
+            <div class="freelanser-page--info__contact">
+                <div class="freelanser-phone">Phone: <a href="tel:+372768696" class="phone-number">+372 768696</a> <span
+                        class="phone-number__check"></span></div>
+                <div class="freelanser-emailWrap">E-mail: <a href="mailto:mari-design@mail.com"
+                                                             class="freelanser-email">mari-design@mail.com</a></div>
+                <div class="freelanser-skypeWrap">Skype: <a href="#" class="freelanser-skype">MariDesign</a></div>
+                <div class="freelanser-whatsappWrap">WhatsApp: <a href="#" class="freelanser-watsapp">+372768696</a>
+                </div>
+                <div class="freelanser-viberWrap">Viber: <a href="#" class="freelanser-viber">+372768696</a></div>
+                <div class="freelanser-otherWrap">Other: <a href="https://es.linkedin.com/in/mari-liss"
+                                                            class="freelanser-other">https://es.linkedin.com/in/mari-liss</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xl-2 col-lg-0"></div>
+
+        <div class="col-xl-10 col-lg-12 freelanser-wrap--padding">
+            <div class="about-box">
+                <h3 class="freelanser-title">About me:</h3>
+                <div class="about-svitchText--wrap">
+                    <span class="about-leng__btn">Estonian</span>
+                    <span class="about-leng__btn">Russian</span>
+                    <span class="about-leng__btn about-leng__btn__active">English</span>
+                </div>
+                <p class="freelanser-about__text">My name is Mari-Liis and I live in Pärnu. I have a Bachelor degree of
+                    Computer Science and Engineering at the Faculty of Computer Science and Engineering in Skopje. I am
+                    a full stack developer and I work currently in Angular 6. I am also familiar with ReactJS.</p>
+            </div>
+
+            <div class="video-box">
+                <div class="freelanser-videoWrap">
+                    <div class="freelanser-video__btn"></div>
+                    <div class="freelanser-video__text">This video about me and <strong>my workplace</strong></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xl-2 col-lg-0"></div>
+
+        <div class="col-xl-10 col-lg-12 freelanser-wrap--padding">
+            <div class="portfolio-box">
+                <h3 class="freelanser-title">Portfolio:</h3>
+                <div class="portfolio-wrap">
+                    <div class="portfolio-wrap__item">
+                        <img src="img/portfolio1.png" alt="portfolio image">
+                        <p class="portfolio-wrap__itemText">Mobile Application for Trading System</p>
+                    </div>
+                    <div class="portfolio-wrap__item">
+                        <img src="img/portfolio2.png" alt="portfolio image">
+                        <p class="portfolio-wrap__itemText">Mobile Application for Trading System</p>
+                    </div>
+                    <div class="portfolio-wrap__item">
+                        <img src="img/portfolio3.png" alt="portfolio image">
+                        <p class="portfolio-wrap__itemText">Mobile Application for Trading System</p>
+                    </div>
+                    <div class="portfolio-wrap__item">
+                        <img src="img/portfolio4.png" alt="portfolio image">
+                        <p class="portfolio-wrap__itemText">Mobile Application for Trading System</p>
+                    </div>
+                    <div class="portfolio-wrap__item">
+                        <img src="img/portfolio5.png" alt="portfolio image">
+                        <p class="portfolio-wrap__itemText">Mobile Application for Trading System</p>
+                    </div>
+                    <div class="portfolio-wrap__item">
+                        <img src="img/portfolio6.png" alt="portfolio image">
+                        <p class="portfolio-wrap__itemText">Mobile Application for Trading System</p>
+                    </div>
+                    <div class="portfolio-wrap__item">
+                        <img src="img/portfolio7.png" alt="portfolio image">
+                        <p class="portfolio-wrap__itemText">Mobile Application for Trading System</p>
+                    </div>
+                    <div class="portfolio-wrap__item">
+                        <img src="img/portfolio1.png" alt="portfolio image">
+                        <p class="portfolio-wrap__itemText">Mobile Application for Trading System</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xl-2 col-lg-0"></div>
+
+        <div class="col-xl-10 col-lg-12 freelanser-wrap--padding">
+
+            <div class="ratings-box">
+                <div class="ratings-addFeedbackWrap">
+                    <span>Add feedback</span><span class="ratings-addFeedbac__btn" onclick="openModal('leave-feedback-modal')"></span>
+                </div>
+                <h3 class="freelanser-title">Ratings <span class="ratings-title__countWrap">(<span
+                        class="ratings-title__count">4</span>)</span></h3>
+
+                <div class="rating-itemWrap">
+                    <div class="rating-item__title">Website Design Work</div>
+                    <div class="rating-item__starCountWrap">
+                        <span class="rating-item__star"></span>
+                        <span class="rating-item__cost"></span>
+                    </div>
+                    <p class="rating-item__text">Mari-Liis was really easy to work with and talk to, him attention to
+                        detail was impeccable and he was really easy to get hold of and discuss the project with. Mari
+                        understood the brief perfectly and was always on hand to make any amends or last-minute
+                        changes.</p>
+                    <div class="ranting-item__fromWrap">from
+                        <span class="ranting-item__name">Ronald Peperoni</span>,
+                        <span class="ranting-item__date">12 Apr 2019</span>
+                    </div>
+                </div>
+                <div class="rating-itemWrap">
+                    <div class="rating-item__title">Website Design Work</div>
+                    <div class="rating-item__starCountWrap">
+                        <span class="rating-item__star"></span>
+                        <span class="rating-item__cost"></span>
+                        <span class="rating-item__cost"></span>
+                        <span class="rating-item__cost"></span>
+                    </div>
+                    <p class="rating-item__text">Mari-Liis was really easy to work with and talk to, him attention to
+                        detail was impeccable and he was really easy to get hold of and discuss the project with. Mari
+                        understood the brief perfectly and was always on hand to make any amends or last-minute
+                        changes.</p>
+                    <div class="ranting-item__fromWrap">from
+                        <span class="ranting-item__name">Ronald Peperoni</span>,
+                        <span class="ranting-item__date">12 Apr 2019</span>
+                    </div>
+                </div>
+                <div class="rating-itemWrap hidden">
+                    <div class="rating-item__title">Website Design Work</div>
+                    <div class="rating-item__starCountWrap">
+                        <span class="rating-item__star"></span>
+                        <span class="rating-item__cost"></span>
+                    </div>
+                    <p class="rating-item__text">Mari-Liis was really easy to work with and talk to, him attention to
+                        detail was impeccable and he was really easy to get hold of and discuss the project with. Mari
+                        understood the brief perfectly and was always on hand to make any amends or last-minute
+                        changes.</p>
+                    <div class="ranting-item__fromWrap">from
+                        <span class="ranting-item__name">Ronald Peperoni</span>,
+                        <span class="ranting-item__date">12 Apr 2019</span>
+                    </div>
+                </div>
+                <div class="rating-itemWrap hidden">
+                    <div class="rating-item__title">Website Design Work</div>
+                    <div class="rating-item__starCountWrap">
+                        <span class="rating-item__star"></span>
+                        <span class="rating-item__cost"></span>
+                        <span class="rating-item__cost"></span>
+                        <span class="rating-item__cost"></span>
+                    </div>
+                    <p class="rating-item__text">Mari-Liis was really easy to work with and talk to, him attention to
+                        detail was impeccable and he was really easy to get hold of and discuss the project with. Mari
+                        understood the brief perfectly and was always on hand to make any amends or last-minute
+                        changes.</p>
+                    <div class="ranting-item__fromWrap">from
+                        <span class="ranting-item__name">Ronald Peperoni</span>,
+                        <span class="ranting-item__date">12 Apr 2019</span>
+                    </div>
+                </div>
+                <div class="rating-itemWrap hidden">
+                    <div class="rating-item__title">Website Design Work</div>
+                    <div class="rating-item__starCountWrap">
+                        <span class="rating-item__star"></span>
+                        <span class="rating-item__cost"></span>
+                        <span class="rating-item__cost"></span>
+                        <span class="rating-item__cost"></span>
+                    </div>
+                    <p class="rating-item__text">Mari-Liis was really easy to work with and talk to, him attention to
+                        detail was impeccable and he was really easy to get hold of and discuss the project with. Mari
+                        understood the brief perfectly and was always on hand to make any amends or last-minute
+                        changes.</p>
+                    <div class="ranting-item__fromWrap">from
+                        <span class="ranting-item__name">Ronald Peperoni</span>,
+                        <span class="ranting-item__date">12 Apr 2019</span>
+                    </div>
+                </div>
+                <div class="rating-itemWrap hidden">
+                    <div class="rating-item__title">Website Design Work</div>
+                    <div class="rating-item__starCountWrap">
+                        <span class="rating-item__star"></span>
+                        <span class="rating-item__cost"></span>
+                    </div>
+                    <p class="rating-item__text">Mari-Liis was really easy to work with and talk to, him attention to
+                        detail was impeccable and he was really easy to get hold of and discuss the project with. Mari
+                        understood the brief perfectly and was always on hand to make any amends or last-minute
+                        changes.</p>
+                    <div class="ranting-item__fromWrap">from
+                        <span class="ranting-item__name">Ronald Peperoni</span>,
+                        <span class="ranting-item__date">12 Apr 2019</span>
+                    </div>
+                </div>
+                <div class="rating-itemWrap hidden">
+                    <div class="rating-item__title">Website Design Work</div>
+                    <div class="rating-item__starCountWrap">
+                        <span class="rating-item__star"></span>
+                        <span class="rating-item__cost"></span>
+                        <span class="rating-item__cost"></span>
+                        <span class="rating-item__cost"></span>
+                    </div>
+                    <p class="rating-item__text">Mari-Liis was really easy to work with and talk to, him attention to
+                        detail was impeccable and he was really easy to get hold of and discuss the project with. Mari
+                        understood the brief perfectly and was always on hand to make any amends or last-minute
+                        changes.</p>
+                    <div class="ranting-item__fromWrap">from
+                        <span class="ranting-item__name">Ronald Peperoni</span>,
+                        <span class="ranting-item__date">12 Apr 2019</span>
+                    </div>
+                </div>
+                <div class="ratings-box__loadMore">Load more</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-12 text-center">
+                <div class="footer-create__btn">Create Protfolio</div>
+                <div class="footer-freelanser__btn">Hire Freelancer</div>
+                <a class="footer-link" href="#">F.A.Q.</a>
+                <a class="footer-link" href="#">PRIVACY POLICY</a>
+                <a class="footer-link" href="#">Terms and Conditions</a>
+            </div>
+            <div class="col-lg-1 col-md-0"></div>
+            <div class="col-lg-3 col-md-12">
+                <h4 class="footer-list__title">Freelancers & Agencies</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">Create Portfolio</a></li>
+                    <li class="footer-list__item"><a href="#">Find Project</a></li>
+                    <li class="footer-list__item"><a href="#">Find Job</a></li>
+                    <li class="footer-list__item"><a href="#">EASYCREW Chat <span class="telegram-icon"></span></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-12">
+                <h4 class="footer-list__title">Employer</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">Hire Freelancer</a></li>
+                    <li class="footer-list__item"><a href="#">Post Project</a></li>
+                    <li class="footer-list__item"><a href="#">Post Job</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-0"></div>
+            <div class="col-lg-3 col-md-12">
+                <h4 class="footer-list__title">About</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">How EASYCREW works</a></li>
+                    <li class="footer-list__item"><a href="#">Freelance HOW-TO</a></li>
+                    <li class="footer-list__item"><a href="#">Pricing</a></li>
+                    <li class="footer-list__item"><a href="#">Blog</a></li>
+                    <li class="footer-list__item"><a href="#">Support and contacts</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row footer-bottom__wrap">
+            <div class="col-lg-4">
+                <div class="footer-appBtn__wrap">
+                    <a href="#" class="footer-appBtn__google"></a>
+                    <a href="#" class="footer-appBtn__apple"></a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="footer-social__wrap">
+                    <a href="#" class="footer-social__item social-telegram"></a>
+                    <a href="#" class="footer-social__item social-facebook"></a>
+                    <a href="#" class="footer-social__item social-instagram"></a>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3 align-center">
+                <h4 class="footer-copyright">EASYCREW OÜ | All Rights Reserved</h4>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Modal leave feedback-->
+<div class="popup-wrap leave-feedback-modal modal-close">
+    <div class="popup-overlay"></div>
+    <div class="change-nameWrap overflowed">
+        <form class="col leave-feedback-formWrap" action="#">
+            <div class="change-name__title lovercase">Leave feedback</div>
+            <div class="row">
+                <div class="col registration-formInputWrap">
+                    <div class="input-wrapp">
+                        <input type="text" name="username" placeholder="Title of work">
+                    </div>
+                    <div class="range-container__input">
+                        <div class="counter-wrapper">
+                            <div class="range-input__wrap">
+                                <input type="range" min="0" max="5" step="0.1" class="form-control-range"
+                                       id="formControlRange" oninput="moveRange();">
+                                <div class="input-range-value-container"></div>
+                            </div>
+                            <span class="feedback-range__count" id="RangeValueContainer">2.5</span>
+                        </div>
+                        <div class="feedback-range__stars">
+                            <div class="star-empty"></div>
+                            <div class="star-filler" id="modal-star-filler"></div>
+                        </div>
+                        <div class="feedback-range__text">(Rating of the work done)</div>
+                    </div>
+                    <div class="input-wrapp">
+                        <textarea rows="7" name="surename" placeholder=" Write here your review"></textarea>
+                    </div>
+                    <input type="submit" class="input-submit__btn" id="submit-input" name="submit" value="Add feedback">
+                </div>
+            </div>
+        </form>
+        <div class="cancel-btn"></div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

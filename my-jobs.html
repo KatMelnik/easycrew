@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Jobs</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-light header-log__in">
+    <div class="wrap-header">
+        <a class="navbar-brand" href="#"></a>
+        <div class="mobile-wrapper">
+            <a class="navbar-brand logo-mobile" href="#"></a>
+            <div class="nav-item dropdown mobile-leng">
+                <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="top-menu-lang-icon eng-flag"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">Русский</a>
+                    <a class="dropdown-item" href="#">Eesti</a>
+                    <a class="dropdown-item" href="#">Latviešu</a>
+                    <a class="dropdown-item" href="#">Lietuvių</a>
+                    <a class="dropdown-item" href="#">Deutsch</a>
+                    <a class="dropdown-item" href="#">Français</a>
+                    <a class="dropdown-item" href="#">Suomeksi</a>
+                    <a class="dropdown-item" href="#">Italiano</a>
+                    <a class="dropdown-item" href="#">Español</a>
+                </div>
+            </div>
+            <div class="search-btn__mobile"></div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="top-menu-lang-icon eng-flag"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">Русский</a>
+                        <a class="dropdown-item" href="#">Eesti</a>
+                        <a class="dropdown-item" href="#">Latviešu</a>
+                        <a class="dropdown-item" href="#">Lietuvių</a>
+                        <a class="dropdown-item" href="#">Deutsch</a>
+                        <a class="dropdown-item" href="#">Français</a>
+                        <a class="dropdown-item" href="#">Suomeksi</a>
+                        <a class="dropdown-item" href="#">Italiano</a>
+                        <a class="dropdown-item" href="#">Español</a>
+                    </div>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search"
+                           placeholder="Search freelancers, projects, jobs, agencies" aria-label="Search">
+                    <button class="header-search__btn" type="submit"></button>
+                </form>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">AGENCIES</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">FREELANCERS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">TRAINEES</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="header-log__wrap log-in">
+
+            <div class="header-log__imgWrap">
+                <a href="#"><img src="img/userAvatar.png" alt="title"></a>
+            </div>
+
+            <div class="header-log__email">
+                <span class="header-log__emailCount header-log__emailCount__active">5</span>
+            </div>
+
+            <div class="dropdown">
+                  <span class="nav-link header-log__btnWrap" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                  </span>
+                <div class="dropdown-menu menu-header__mob" aria-labelledby="navbarDropdown">
+                    <div class="freelanser-menu">
+                        <ul class="freelanser-menu--list">
+                            <li class="header-sign__btn">Sign out</li>
+                            <li class="freelanser-menu__item"><a href="#">My Profile</a></li>
+                            <li class="freelanser-menu__item"><a href="#">Messages <span
+                                    class="menu-messages__count">35</span></a></li>
+                            <li class="freelanser-menu__item"><a href="#">My CREW</a></li>
+                            <li class="freelanser-menu__item"><a href="#">My Projects</a></li>
+                            <li class="freelanser-menu__item item-active"><a href="#">My Jobs</a></li>
+                            <li class="freelanser-menu__item"><a href="#">My Subscription</a></li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">AGENCIES</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">FREELANCERS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">TRAINEES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</nav>
+
+
+<div class="container " style="margin-top: 80px;">
+
+    <div class="row">
+        <div class="col saved-jobs-Headerwrap">
+            <h1 class="page-title__question">My Jobs</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-2 my-jobs__menu">
+            <div class="freelanser-menu">
+                <ul class="freelanser-menu--list">
+                    <li class="freelanser-menu__item"><a href="#">My Profile</a></li>
+                    <li class="freelanser-menu__item"><a href="#">Messages <span class="menu-messages__count">35</span></a>
+                    </li>
+                    <li class="freelanser-menu__item"><a href="#">My CREW</a></li>
+                    <li class="freelanser-menu__item"><a href="#">My Projects</a>
+                    </li>
+                    <li class="freelanser-menu__item active"><a href="#">My Jobs</a>
+                    </li>
+                    <li class="freelanser-menu__item"><a href="#">My Subscription</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-9">
+
+            <div class="saved-jobs-wrap">
+                <div class="saved-projects__title">Saved Jobs:</div>
+                <div class="saved-project-wrap">
+
+                    <div class="saved-project-block">
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job11111 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job11111 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job11111 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job11111 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="saved-project-block hidden">
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job2222 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job2222 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job2222 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job2222 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="saved-project-block hidden">
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job33333 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job33333 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job33333 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                        <div class="saved-project__item">
+                            <div class="saved-project__header">
+                                <div class="saved-project-wrapper">
+                                    <a href="#" class="saved-project__title">Job33333 Title Job Titel Job Job Titel Job Title</a>
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="saved-project__body">
+                                <div class="saved-project__price"><span class="saved-project__price-count">500€</span>
+                                    <div class="saved-project__location bigger"><span
+                                            class="saved-project__location-town">Pärnu</span>,<span
+                                            class="saved-project__location-town">Estonia</span></div>
+                                </div>
+                                <a href="#" class="job-applications__autorWrap">
+                                    <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                    <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                </a>
+                            </div>
+                            <div class="saved-project__footer">
+                                <div class="saved-project__date">Expiration Date <span
+                                        class="saved-project__date-time">27.08.19</span></div>
+                                <div class="saved-project__job-duration">Job duration: <span
+                                        class="saved-project__job-durationDate">3 month</span></div>
+                                <div class="saved-project__btn">Apply</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav aria-label="Page navigation example">
+                        <div class="pagination justify-content-center">
+                            <div class="page-item__previous disabled">
+                                <span class="page-link " aria-label="Previous">
+                                    <span aria-hidden="true"><</span>
+                                    <span class="sr-only">Previous</span>
+                                </span>
+                            </div>
+                            <div class="slider-buttons">
+                                <div class="page-item button active"><span class="page-link">1</span></div>
+                                <div class="page-item button"><span class="page-link">2</span></div>
+                                <div class="page-item button"><span class="page-link">3</span></div>
+                            </div>
+                            <div class="page-item__next">
+                                <span class="page-link" aria-label="Next">
+                                    <span aria-hidden="true">></span>
+                                    <span class="sr-only">Next</span>
+                                </span>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+
+
+                <div class="saved-projects-wrap">
+                    <div class="my-offers__titleWrap">
+                        <div class="saved-projects__title">My Job Applications:</div>
+                        <div class="my-offers__deleteBtn">Delete expired jobs</div>
+                    </div>
+
+                    <div class="saved-project-block">
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionAceped">Accepted</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionDeclined">Declined</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item__commentWrap">
+                            <div class="project-item__bodyWrap">
+                                <a href="#"><img src="img/Avatar.png" alt="img" class="project-comment__img"></a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionDeclined">Declined</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item__commentWrap">
+                            <div class="project-item__bodyWrap">
+                                <a href="#"><img src="img/Avatar.png" alt="img" class="project-comment__img"></a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionAceped">Accepted</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="saved-project-block hidden">
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionAceped">Accepted</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionDeclined">Declined</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item__commentWrap">
+                            <div class="project-item__bodyWrap">
+                                <a href="#"><img src="img/Avatar.png" alt="img" class="project-comment__img"></a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionDeclined">Declined</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item__commentWrap">
+                            <div class="project-item__bodyWrap">
+                                <a href="#"><img src="img/Avatar.png" alt="img" class="project-comment__img"></a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionAceped">Accepted</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="saved-project-block hidden">
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionAceped">Accepted</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionDeclined">Declined</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item__commentWrap">
+                            <div class="project-item__bodyWrap">
+                                <a href="#"><img src="img/Avatar.png" alt="img" class="project-comment__img"></a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionDeclined">Declined</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item__commentWrap">
+                            <div class="project-item__bodyWrap">
+                                <a href="#"><img src="img/Avatar.png" alt="img" class="project-comment__img"></a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="job-applications__left">
+                                <a href="#" class="job-applications__title">Job Title Job Titel Job Job Titel Job Title</a>
+                                <p class="project-comment__text first-part">Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitdolor sit ammet Lorem ipsum dolor sit... <span class="unwrap-button">read more</span></p>
+                                <p class="project-comment__text second-part hidden">
+                                    Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit Lorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sitLorem ipsum dolor sit ammet Lorem ipsum dolor sit ammet
+                                    Lorem ips dolor sit <span class="wrap-button"> hide</span></p>
+                                </p>
+                                <div class="price-n-autor">
+                                    <a href="#" class="job-applications__autorWrap">
+                                        <img src="img/Avatar.png" title="title" class="job-applications__autorImage">
+                                        <div class="job-applications__autorName">Mari-Liis Toomingas</div>
+                                    </a>
+                                    <div class="saved-project__price"><span
+                                            class="saved-project__price-count">500€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-applications__right">
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__can-start">Can start:
+                                        <span class="ob-applications__can-startDate">20.07.19</span>
+                                    </div>
+                                </div>
+                                <div class="view-cv job-applications__rightWrap">
+                                    <a href="#">View CV</a>
+                                </div>
+                                <div class="job-applications__rightWrap">
+                                    <div class="job-applications__decision">Decision : <span
+                                            class="job-applications__decisionAceped">Accepted</span></div>
+                                    <div class="job-applications__date-decision">Date of decision: <span
+                                            class="job-applications__date">16.07.19</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <nav aria-label="Page navigation example">
+                        <div class="pagination justify-content-center">
+                            <div class="page-item__previous disabled">
+                                <span class="page-link " aria-label="Previous">
+                                    <span aria-hidden="true"><</span>
+                                    <span class="sr-only">Previous</span>
+                                </span>
+                            </div>
+                            <div class="slider-buttons">
+                                <div class="page-item button active"><span class="page-link">1</span></div>
+                                <div class="page-item button"><span class="page-link">2</span></div>
+                                <div class="page-item button"><span class="page-link">3</span></div>
+                            </div>
+                            <div class="page-item__next">
+                                <span class="page-link" aria-label="Next">
+                                    <span aria-hidden="true">></span>
+                                    <span class="sr-only">Next</span>
+                                </span>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-12 text-center">
+                <div class="footer-create__btn">Create Protfolio</div>
+                <div class="footer-freelanser__btn">Hire Freelancer</div>
+                <a class="footer-link" href="#">F.A.Q.</a>
+                <a class="footer-link" href="#">PRIVACY POLICY</a>
+                <a class="footer-link" href="#">Terms and Conditions</a>
+
+            </div>
+            <div class="col-lg-1 col-md-0"></div>
+            <div class="col-lg-3 col-md-12">
+                <h4 class="footer-list__title">Freelancers & Agencies</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">Create Portfolio</a></li>
+                    <li class="footer-list__item"><a href="#">Find Project</a></li>
+                    <li class="footer-list__item"><a href="#">Find Job</a></li>
+                    <li class="footer-list__item"><a href="#">EASYCREW Chat <span class="telegram-icon"></span></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-12">
+                <h4 class="footer-list__title">Employer</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">Hire Freelancer</a></li>
+                    <li class="footer-list__item"><a href="#">Post Project</a></li>
+                    <li class="footer-list__item"><a href="#">Post Job</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-0"></div>
+            <div class="col-lg-3 col-md-12">
+                <h4 class="footer-list__title">About</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">How EASYCREW works</a></li>
+                    <li class="footer-list__item"><a href="#">Freelance HOW-TO</a></li>
+                    <li class="footer-list__item"><a href="#">Pricing</a></li>
+                    <li class="footer-list__item"><a href="#">Blog</a></li>
+                    <li class="footer-list__item"><a href="#">Support and contacts</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row footer-bottom__wrap">
+            <div class="col-lg-4">
+                <div class="footer-appBtn__wrap">
+                    <a href="#" class="footer-appBtn__google"></a>
+                    <a href="#" class="footer-appBtn__apple"></a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="footer-social__wrap">
+                    <a href="#" class="footer-social__item social-telegram"></a>
+                    <a href="#" class="footer-social__item social-facebook"></a>
+                    <a href="#" class="footer-social__item social-instagram"></a>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3 align-center">
+                <h4 class="footer-copyright">EASYCREW OÜ | All Rights Reserved</h4>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

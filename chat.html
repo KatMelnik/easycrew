@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-light header-log__in chat-nav">
+    <div class="wrap-header">
+        <a class="navbar-brand" href="#"></a>
+        <div class="mobile-wrapper">
+            <a class="navbar-brand logo-mobile" href="#"></a>
+            <div class="nav-item dropdown mobile-leng">
+                <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="top-menu-lang-icon eng-flag"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">Русский</a>
+                    <a class="dropdown-item" href="#">Eesti</a>
+                    <a class="dropdown-item" href="#">Latviešu</a>
+                    <a class="dropdown-item" href="#">Lietuvių</a>
+                    <a class="dropdown-item" href="#">Deutsch</a>
+                    <a class="dropdown-item" href="#">Français</a>
+                    <a class="dropdown-item" href="#">Suomeksi</a>
+                    <a class="dropdown-item" href="#">Italiano</a>
+                    <a class="dropdown-item" href="#">Español</a>
+                </div>
+            </div>
+            <div class="search-btn__mobile"></div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="top-menu-lang-icon eng-flag"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">Русский</a>
+                        <a class="dropdown-item" href="#">Eesti</a>
+                        <a class="dropdown-item" href="#">Latviešu</a>
+                        <a class="dropdown-item" href="#">Lietuvių</a>
+                        <a class="dropdown-item" href="#">Deutsch</a>
+                        <a class="dropdown-item" href="#">Français</a>
+                        <a class="dropdown-item" href="#">Suomeksi</a>
+                        <a class="dropdown-item" href="#">Italiano</a>
+                        <a class="dropdown-item" href="#">Español</a>
+                    </div>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search"
+                           placeholder="Search freelancers, projects, jobs, agencies" aria-label="Search">
+                    <button class="header-search__btn" type="submit"></button>
+                </form>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">AGENCIES</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">FREELANCERS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">TRAINEES</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="header-log__wrap log-in">
+
+            <div class="header-log__imgWrap">
+                <a href="#"><img src="img/userAvatar.png" alt="title"></a>
+            </div>
+
+            <div class="header-log__email">
+                <span class="header-log__emailCount header-log__emailCount__active">5</span>
+            </div>
+
+            <div class="dropdown">
+                  <span class="nav-link header-log__btnWrap" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                  </span>
+                <div class="dropdown-menu menu-header__mob" aria-labelledby="navbarDropdown">
+                    <div class="freelanser-menu">
+                        <ul class="freelanser-menu--list">
+                            <li class="header-sign__btn">Sign out</li>
+                            <li class="freelanser-menu__item"><a href="#">My Profile</a></li>
+                            <li class="freelanser-menu__item item-active"><a href="#">Messages </a><span
+                                    class="menu-messages__count">35</span></li>
+                            <li class="freelanser-menu__item"><a href="#">My CREW</a>
+                            </li>
+                            <li class="freelanser-menu__item"><a href="#">My Projects</a></li>
+                            <li class="freelanser-menu__item"><a href="#">My Jobs</a></span>
+                            </li>
+                            <li class="freelanser-menu__item"><a href="#">My Subscription</a></li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">AGENCIES</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">FREELANCERS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">TRAINEES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<section class="section-chat">
+    <div class="chat-wrap">
+        <div class="chat-contactWrap">
+            <label class="search-chat">
+                <input type="text" class="chat-searchWrap" placeholder="All conversations">
+            </label>
+            <div class="chat-contact__itemWrap">
+                <div class="chat-contact__item">
+                    <div class="chat-contact__img"><img src="img/img-contact-chat.svg" alt="title"><span
+                            class="chat-contact__status status-offline"></span></div>
+                    <div class="chat-contact__textWrap">
+                        <div class="chat-contact__name">Anatol</div>
+                        <div class="chat-contact__message text-truncate">Me: hello! How arfsafasdfsad</div>
+                    </div>
+                    <div class="chat-contact__timeAgo">1h 32m</div>
+                    <div class="chat-contact__favorite"></div>
+                </div>
+                <div class="chat-contact__item">
+                    <div class="chat-contact__img"><img src="img/img-contact-chat.svg" alt="title"><span
+                            class="chat-contact__status status-offline"></span></div>
+                    <div class="chat-contact__textWrap">
+                        <div class="chat-contact__name">Eddy</div>
+                        <div class="chat-contact__message text-truncate">Me: hello, Eddy! How arfsafasdfsad</div>
+                    </div>
+                    <div class="chat-contact__timeAgo">1h 32m</div>
+                    <div class="chat-contact__favorite"></div>
+                </div>
+                <div class="chat-contact__item chat-contact__notRead">
+                    <div class="chat-contact__img"><img src="img/Avatar.png" alt="title"><span
+                            class="chat-contact__status"></span></div>
+                    <div class="chat-contact__textWrap">
+                        <div class="chat-contact__name">John</div>
+                        <div class="chat-contact__message text-truncate">Me: hello, John! How arfsafasdfsad</div>
+                    </div>
+                    <div class="chat-contact__timeAgo">1h 32m</div>
+                    <div class="chat-contact__favorite"></div>
+                </div>
+                <div class="chat-contact__item">
+                    <div class="chat-contact__img"><img src="img/img-contact-chat.svg" alt="title"><span
+                            class="chat-contact__status status-offline"></span></div>
+                    <div class="chat-contact__textWrap">
+                        <div class="chat-contact__name">Bob</div>
+                        <div class="chat-contact__message text-truncate">Me: hello, Bob! How arfsafasdfsad</div>
+                    </div>
+                    <div class="chat-contact__timeAgo">1h 32m</div>
+                    <div class="chat-contact__favorite"></div>
+                </div>
+                <div class="chat-contact__item">
+                    <div class="chat-contact__img"><img src="img/img-contact-chat.svg" alt="title"><span
+                            class="chat-contact__status status-offline"></span></div>
+                    <div class="chat-contact__textWrap">
+                        <div class="chat-contact__name">Andy</div>
+                        <div class="chat-contact__message text-truncate">Me: hello, Andy! How arfsafasdfsad</div>
+                    </div>
+                    <div class="chat-contact__timeAgo">1h 32m</div>
+                    <div class="chat-contact__favorite chat-contact__favoriteActive"></div>
+                </div>
+                <div class="chat-contact__item">
+                    <div class="chat-contact__img"><img src="img/img-contact-chat.svg" alt="title"><span
+                            class="chat-contact__status"></span></div>
+                    <div class="chat-contact__textWrap">
+                        <div class="chat-contact__name">Mike</div>
+                        <div class="chat-contact__message text-truncate">Me: hello, Mike! How arfsafasdfsad</div>
+                    </div>
+                    <div class="chat-contact__timeAgo">1h 32m</div>
+                    <div class="chat-contact__favorite"></div>
+                </div>
+                <div class="chat-contact__item">
+                    <div class="chat-contact__img"><img src="img/img-contact-chat.svg" alt="title"><span
+                            class="chat-contact__status status-offline"></span></div>
+                    <div class="chat-contact__textWrap">
+                        <div class="chat-contact__name">Kate</div>
+                        <div class="chat-contact__message text-truncate">Me: hello, Kate! How arfsafasdfsad</div>
+                    </div>
+                    <div class="chat-contact__timeAgo">1h 32m</div>
+                    <div class="chat-contact__favorite"></div>
+                </div>
+                <div class="chat-contact__item">
+                    <div class="chat-contact__img"><img src="img/img-contact-chat.svg" alt="title"><span
+                            class="chat-contact__status"></span></div>
+                    <div class="chat-contact__textWrap">
+                        <div class="chat-contact__name">Pall</div>
+                        <div class="chat-contact__message text-truncate">Me: hello, Pall! How arfsafasdfsad</div>
+                    </div>
+                    <div class="chat-contact__timeAgo">1h 32m</div>
+                    <div class="chat-contact__favorite"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-bodyMessage">
+
+            <div class="chat-bodyMessage__titleWrap">
+                <div class="chat-bodyMessage__status"></div>
+                <div class="chat-bodyMessage__title">Mari-Liis</div>
+                <div class="chat-bodyMessage__timeAgo">Last seen 2h ago</div>
+            </div>
+
+            <div class="chat-bodyMessage__wrap">
+
+                <div class="chat-bodyMessage__meMessageWrap">
+                    <div class="chat-bodyMessage__meAvatar">
+                        <img src="img/userAvatar.png" alt="title">
+                        <span class="chat-contact__status"></span>
+                    </div>
+                    <div class="chat-contact__messageWrap">
+                        <div class="chat-contact__timeWrap">
+                            <div class="chat-bodyMessage__meTitle">Me</div>
+                            <div class="chat-bodyMessage__meTIme">1h 32m</div>
+                        </div>
+                        <div class="chat-bodyMessage__meText">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-bodyMessage__contactMessageWrap">
+                    <div class="chat-bodyMessage__contactAvatar">
+                        <img src="img/Avatar.png" alt="title">
+                        <span class="chat-contact__status"></span>
+                    </div>
+                    <div class="chat-contact__messageWrap">
+                        <div class="chat-contact__timeWrap">
+                            <div class="chat-bodyMessage__meTitle">Mari-Liis</div>
+                            <div class="chat-bodyMessage__meTIme">jun 21, 7h 30m</div>
+                        </div>
+                        <div class="chat-bodyMessage__meText">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-bodyMessage__meMessageWrap">
+                    <div class="chat-bodyMessage__meAvatar">
+                        <img src="img/userAvatar.png" alt="title">
+                        <span class="chat-contact__status"></span>
+                    </div>
+                    <div class="chat-contact__messageWrap">
+                        <div class="chat-contact__timeWrap">
+                            <div class="chat-bodyMessage__meTitle">Me</div>
+                            <div class="chat-bodyMessage__meTIme">1h 32m</div>
+                        </div>
+                        <div class="chat-bodyMessage__meText">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-bodyMessage__contactMessageWrap">
+                    <div class="chat-bodyMessage__contactAvatar">
+                        <img src="img/Avatar.png" alt="title">
+                        <span class="chat-contact__status"></span>
+                    </div>
+                    <div class="chat-contact__messageWrap">
+                        <div class="chat-contact__timeWrap">
+                            <div class="chat-bodyMessage__meTitle">Mari-Liis</div>
+                            <div class="chat-bodyMessage__meTIme">jun 21, 7h 30m</div>
+                        </div>
+                        <div class="chat-bodyMessage__meText">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="chat-bodyMessage__meMessageWrap">
+                    <div class="chat-bodyMessage__meAvatar">
+                        <img src="img/userAvatar.png" alt="title">
+                        <span class="chat-contact__status"></span>
+                    </div>
+                    <div class="chat-contact__messageWrap">
+                        <div class="chat-contact__timeWrap">
+                            <div class="chat-bodyMessage__meTitle">Me</div>
+                            <div class="chat-bodyMessage__meTIme">1h 32m</div>
+                        </div>
+                        <div class="chat-bodyMessage__meText">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="chat-bodyMessage__inputFormWrap">
+                <div class="chat-bodyMessage__smileBtn"></div>
+                <div class="chat-bodyMessage__addFileBtn"></div>
+                <form action="#" class="chat-bodyMessage__form">
+                    <input class="chat-bodyMessage__input" type="text" name="" id="" placeholder="Tipe">
+                    <input class="chat-bodyMessage__btn" type="button" value="Send">
+                </form>
+            </div>
+        </div>
+
+        <div class="chat-contactInfo">
+            <div class="chat-contactInfo__headerBtnWrap">
+                <div class="chat-contactInfo__headerBtn"></div>
+                <div class="chat-contactInfo__btnPan hidden">
+                    <div class="btnPan_wrapper">
+                        <div class="star_btn" style="background-image: url('img/star-min.png')"></div>
+                    </div>
+                    <div class="btnPan_wrapper">
+                        <div class="mail_btn" style="background-image: url('img/vector-min.png')"></div>
+                        <div class="download_btn" style="background-image: url('img/download-min.png')"></div>
+                        <div class="tray_btn" style="background-image: url('img/delet-min.png')"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-contactInfo__aboutWrap">
+                <div class="chat-contactInfo__wrapTitle">
+                    <div class="freelanser-avatar--wrap">
+                        <span class="freelanser-active"></span>
+                        <img src="img/Avatar.png" alt="title" class="freelanser-avatar">
+                    </div>
+                    <div class="chat-contactInfo__wrapOnline">
+                        <h2 class="freelanser-name">Mari-Liis Toomingas</h2>
+                        <span class="freelanser-status freelanser-status__online freelanser-status__agency">online</span>
+                    </div>
+                </div>
+
+                <div class="chat-contactInfo__skillsWrap">
+                    <div class="freelanser-location">Location: <span class="location-country">Pärnu, Estonia</span>
+                    </div>
+                    <div class="local-time__icon">Local time:<span class="local-time"> 17:20</span></div>
+                    <div class="freelanser-languages">Speaks: <span class="languages-est"></span><span
+                            class="languages-rus"></span><span class="languages-english"></span></div>
+                    <div class="chat-contactInfo__skillsWrapPhone">
+                        <div class="freelanser-phone">Phone: <a href="tel:+372768696" class="phone-number">+372
+                            768696</a> <span class="phone-number__check"></span></div>
+                        <div class="freelanser-emailWrap">E-mail: <a href="mailto:mari-design@mail.com"
+                                                                     class="freelanser-email">mari-design@mail.com</a>
+                        </div>
+                        <div class="freelanser-skypeWrap">Skype: <a href="#" class="freelanser-skype">MariDesign</a>
+                        </div>
+                        <div class="freelanser-whatsappWrap">WhatsApp: <a href="#"
+                                                                          class="freelanser-watsapp">+372768696</a>
+                        </div>
+                        <div class="freelanser-viberWrap">Viber: <a href="#" class="freelanser-viber">+372768696</a>
+                        </div>
+                        <div class="freelanser-otherWrap">Other: <a href="https://es.linkedin.com/in/mari-liss"
+                                                                    class="freelanser-other">https://es.linkedin.com/in/mari-liss</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="chat-contactInfo__createOfferWrap">
+                <div class="chat-contactInfo__createOfferBtn" onclick="openModal('modal-create-offer')">create an
+                    offer
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--Modal create offer-->
+<div class="popup-wrap modal-create-offer modal-close">
+    <div class="popup-overlay"></div>
+    <div class="change-nameWrap change-quote__popup create-offer__popup overflowed">
+        <div class="change-name__title">Create an offer</div>
+        <form class="col change-about-me-formWrap" action="#">
+            <div class="row">
+                <div class="col change-skills-formInputWrap">
+                    <h3 class="freelanser-title">Work description:</h3>
+                    <textarea class="freelanser-about__text" rows="3">Limits far yet turned highly repair parish talked six. You high bed wish help call draw side. Lorem</textarea>
+                    <div class="change-specialty__wrap">
+                        <label class="input-wrapp">
+                            <h3 class="freelanser-title">Price:</h3>
+                            <input type="text" id="price-offer" maxlength="5" name="price-offer" placeholder="50">
+                            <span class="create-offer__priceIcon"></span>
+                        </label>
+                        <label class="input-wrapp">
+                            <h3 class="freelanser-title">Work volume:</h3>
+                            <div class="subscriptionSelect-wrap">
+                                <select class="select-subscriptionPlan" name="subscription-plan">
+                                    <optgroup>
+                                        <option value="r1"></option>
+                                        <option value="r2">1 month</option>
+                                        <option value="r3">2 month</option>
+                                        <option value="r3">3 month</option>
+                                        <option value="r3">4 month</option>
+                                        <option value="r3">5 month</option>
+                                    </optgroup>
+                                </select>
+                                <span class="subscription-plan__circle">▼</span>
+                            </div>
+                        </label>
+                        <label class="input-wrapp">
+                            <h3 class="freelanser-title">Able to start:</h3>
+                            <div class="subscriptionSelect-wrap">
+                                <input type="date" name="price-offer" placeholder="dd.mm.yyyy">
+                            </div>
+                        </label>
+                        <div class="form-radio">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="radio"/><i class="helper"></i><span
+                                        class="radio-colorBlue"></span> Prepayment <input type="text" maxlength="2"
+                                                                                          class="radio-50sale"
+                                                                                          placeholder="0"><span
+                                        style="font-size: 14px;line-height: 17px;color: #999999;position: absolute;top: 0;left: 167px;color: #999999;">%</span>
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="radio"/><i class="helper"></i><span
+                                        class="radio-colorBlue"></span> Payout after execution
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="freelanser-title">Comment:</h3>
+                    <textarea class="freelanser-about__text" rows="2">Limits far yet turned highly repair parish talked six. You high bed wish help call draw side. Lorem</textarea>
+                    <div class="input-submit__btnWrap">
+                        <input type="submit" class="input-submit__btn" id="submit-input" name="submit"
+                               value="Send Offer">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="cancel-btn"></div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

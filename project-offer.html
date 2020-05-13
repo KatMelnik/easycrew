@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Offer</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-light header-log__in">
+    <div class="wrap-header">
+        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand logo-mobile" href="#"></a>
+        <div class="nav-item dropdown mobile-leng">
+            <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EST
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">Русский</a>
+                <a class="dropdown-item" href="#">Eesti keel</a>
+                <a class="dropdown-item" href="#">Latviešu valoda</a>
+                <a class="dropdown-item" href="#">Lietuvių</a>
+                <a class="dropdown-item" href="#">Deutsch</a>
+                <a class="dropdown-item" href="#">Le français</a>
+                <a class="dropdown-item" href="#">Suomeksi</a>
+                <a class="dropdown-item" href="#">Italiano</a>
+                <a class="dropdown-item" href="#">Español</a>
+            </div>
+        </div>
+        <div class="search-btn__mobile"></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        EST
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">Русский</a>
+                        <a class="dropdown-item" href="#">Eesti keel</a>
+                        <a class="dropdown-item" href="#">Latviešu valoda</a>
+                        <a class="dropdown-item" href="#">Lietuvių</a>
+                        <a class="dropdown-item" href="#">Deutsch</a>
+                        <a class="dropdown-item" href="#">Le français</a>
+                        <a class="dropdown-item" href="#">Suomeksi</a>
+                        <a class="dropdown-item" href="#">Italiano</a>
+                        <a class="dropdown-item" href="#">Español</a>
+                    </div>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search"
+                           placeholder="Search freelancers, projects, jobs, agencies" aria-label="Search">
+                    <button class="header-search__btn" type="submit"></button>
+                </form>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">AGENCIES</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">FREELANCERS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">TRAINEES</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="header-log__wrap log-in">
+
+            <div class="header-log__imgWrap">
+                <img src="img/userAvatar.png" alt="title">
+            </div>
+
+            <div class="header-log__email">
+                <span class="header-log__emailCount header-log__emailCount__active">5</span>
+            </div>
+
+            <div class="dropdown">
+                  <span class="nav-link header-log__btnWrap" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                  </span>
+                <div class="dropdown-menu menu-header__mob" aria-labelledby="navbarDropdown">
+                    <div class="freelanser-menu">
+                        <h3 class="freelanser-menu__title">My Profile</h3>
+                        <ul class="freelanser-menu--list">
+                            <li class="header-sign__btn">Sign out</li>
+                            <li class="freelanser-menu__item"><a href="#">Messages <span
+                                    class="menu-messages__count">35</span></a></li>
+                            <li class="freelanser-menu__item"><a href="#">My CREW <span
+                                    class="menu-jobs__countWrap">(<span class="menu-CREW__count">3</span>)</span></a>
+                            </li>
+                            <li class="freelanser-menu__item"><a href="#">My Projects <span
+                                    class="menu-jobs__countWrap">(<span
+                                    class="menu-projects__count">5</span>)</span></a><span
+                                    class="addProject-btn"></span></li>
+                            <li class="freelanser-menu__item"><a href="#">My Jobs <span
+                                    class="menu-jobs__countWrap">(<span class="menu-jobs__count">1</span>)</span><span
+                                    class="addJobs-btn"></span></a></li>
+                            <li class="freelanser-menu__item"><a href="#">My Subscription</a></li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">AGENCIES</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">FREELANCERS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">TRAINEES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container for-popup" style="margin-top: 133px;">
+
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-12 text-center">
+                <div class="footer-create__btn">Create Protfolio</div>
+                <div class="footer-freelanser__btn">Hire Freelancer</div>
+                <a class="footer-link" href="#">F.A.Q.</a>
+                <a class="footer-link" href="#">PRIVACY POLICY</a>
+            </div>
+            <div class="col-lg-1 col-md-0"></div>
+            <div class="col-lg-3 col-md-12">
+                <h4 class="footer-list__title">Freelancers & Agencies</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">Create Portfolio</a></li>
+                    <li class="footer-list__item"><a href="#">Find Project</a></li>
+                    <li class="footer-list__item"><a href="#">Find Job</a></li>
+                    <li class="footer-list__item"><a href="#">EASYCREW Chat <span class="telegram-icon"></span></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-12">
+                <h4 class="footer-list__title">Employer</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">Hire Freelancer</a></li>
+                    <li class="footer-list__item"><a href="#">Post Project</a></li>
+                    <li class="footer-list__item"><a href="#">Post Job</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-0"></div>
+            <div class="col-lg-3 col-md-12">
+                <h4 class="footer-list__title">About</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">How EASYCREW works</a></li>
+                    <li class="footer-list__item"><a href="#">Freelance HOW-TO</a></li>
+                    <li class="footer-list__item"><a href="#">Pricing</a></li>
+                    <li class="footer-list__item"><a href="#">Blog</a></li>
+                    <li class="footer-list__item"><a href="#">Terms and Conditions</a></li>
+                    <li class="footer-list__item"><a href="#">Support and contacts</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row footer-bottom__wrap">
+            <div class="col-lg-4">
+                <div class="footer-appBtn__wrap">
+                    <a href="#" class="footer-appBtn__google"></a>
+                    <a href="#" class="footer-appBtn__apple"></a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="footer-social__wrap">
+                    <a href="#" class="footer-social__item social-telegram"></a>
+                    <a href="#" class="footer-social__item social-facebook"></a>
+                    <a href="#" class="footer-social__item social-instagram"></a>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3 align-center">
+                <h4 class="footer-copyright">EASYCREW OÜ | All Rights Reserved</h4>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Modal job application-->
+<div class="popup-wrap project-offer">
+    <div class="popup-overlay"></div>
+    <div class="change-nameWrap overflowed">
+        <div class="change-name__title">Project Offer:</div>
+        <form class="col " action="#">
+            <div class="row">
+                <div class="col-md-6 project-offer__form mb-4 mb-md-0">
+                   <label> Work description:</label>
+                   <textarea class="project-offer__form-comments" type="text" placeholder="Your comment:" id="job-comments"></textarea>
+                </div>
+                <div class="col-md-6 project-offer__form pl-md-4 ">
+                    <label> Work volume: </label>
+                    <div class="two-input d-flex align-items-center">
+                        <select id="workdate" class="project-offer__form-work-day">
+                            <option selected>1</option>
+                            <option >2</option>
+                            <option >3</option>
+                            <option >4</option>
+                            <option >5</option>
+                            <option >6</option>
+                            <option >7</option>
+                            <option >8</option>
+                            <option >9</option>
+                            <option >10</option>
+                            <option >11</option>
+                            <option >12</option>
+                            <option >13</option>
+                            <option >14</option>
+                            <option >15</option>
+                            <option >16</option>
+                            <option >17</option>
+                            <option >18</option>
+                            <option >19</option>
+                            <option >20</option>
+                            <option >21</option>
+                            <option >22</option>
+                            <option >23</option>
+                            <option >24</option>
+                            <option >25</option>
+                            <option >26</option>
+                            <option >27</option>
+                            <option >28</option>
+                            <option >29</option>
+                            <option >30</option>
+                            <option >31</option>
+                            <option >32</option>
+                            <option >33</option>
+                            <option >34</option>
+                            <option >35</option>
+                            <option >36</option>
+                            <option >37</option>
+                            <option >38</option>
+                            <option >39</option>
+                            <option >40</option>
+                            <option >41</option>
+                            <option >42</option>
+                            <option >43</option>
+                            <option >44</option>
+                            <option >45</option>
+                            <option >46</option>
+                            <option >47</option>
+                            <option >48</option>
+                            <option >49</option>
+                            <option >50</option>
+                            <option >51</option>
+                            <option >52</option>
+                            <option >53</option>
+                            <option >54</option>
+                            <option >55</option>
+                            <option >56</option>
+                            <option >57</option>
+                            <option >58</option>
+                            <option >59</option>
+                            <option >60</option>
+                            <option >61</option>
+                            <option >62</option>
+                            <option >63</option>
+                            <option >64</option>
+                            <option >65</option>
+                            <option >66</option>
+                            <option >67</option>
+                            <option >68</option>
+                            <option >69</option>
+                            <option >70</option>
+                            <option >71</option>
+                            <option >72</option>
+                            <option >73</option>
+                            <option >74</option>
+                            <option >75</option>
+                            <option >76</option>
+                            <option >77</option>
+                            <option >78</option>
+                            <option >79</option>
+                            <option >80</option>
+                            <option >81</option>
+                            <option >82</option>
+                            <option >83</option>
+                            <option >84</option>
+                            <option >85</option>
+                            <option >86</option>
+                            <option >87</option>
+                            <option >88</option>
+                            <option >89</option>
+                            <option >90</option>
+                            <option >91</option>
+                            <option >92</option>
+                            <option >93</option>
+                            <option >94</option>
+                            <option >95</option>
+                            <option >96</option>
+                            <option >97</option>
+                            <option >98</option>
+                            <option >99</option>
+                            <option >100</option>
+                        </select>
+                        <select id="workdate" class="project-offer__form-work-moth">
+                            <option selected>Days</option>
+                            <option >Month</option>
+                            <option >Years</option>
+                        </select>
+                    </div>
+                    <label> Budget: </label>
+                    <input type="text" name="price" class="project-offer__form-price" placeholder="100" id="job-comments">
+                    <span class="project-offer__priceIcon"></span>
+                    <label> Able to start work: </label>
+                    <input type="date" name="able-start" class="job-application__form-able-start"  value="2019-06-19" id="job-comments">
+                    
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between job-application__btn">
+                 <div class="col-6 text-left">
+                    <input type="submit" class="input-submit__btn btn-grey" id="submit-input" name="submit" value="Cancel">
+                </div>
+                <div class="col-6 text-right">
+                    <input type="submit" class="input-submit__btn" id="submit-input" name="submit" value="Send">
+                </div>
+            </div>
+        </form>
+        <div class="cancel-btn"></div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

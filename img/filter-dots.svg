@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="14" viewBox="0 0 9 14">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M4,14a1,1,0,0,1-1-1V11a1,1,0,0,1,1-1H5a1,1,0,0,1,1,1v2a1,1,0,0,1-1,1Zm6-5A1,1,0,0,1,9,8V6a1,1,0,0,1,1-1h1a1,1,0,0,1,1,1V8a1,1,0,0,1-1,1ZM6,4A1,1,0,0,1,5,3V1A1,1,0,0,1,6,0H7A1,1,0,0,1,8,1V3A1,1,0,0,1,7,4Z" transform="translate(4 5)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Icons_ic-fav-yes" data-name="Icons/ic-fav-yes" transform="translate(0)">
+    <path id="Combined_Shape-2" data-name="Combined Shape" d="M4,14a1,1,0,0,1-1-1V11a1,1,0,0,1,1-1H5a1,1,0,0,1,1,1v2a1,1,0,0,1-1,1Zm6-5A1,1,0,0,1,9,8V6a1,1,0,0,1,1-1h1a1,1,0,0,1,1,1V8a1,1,0,0,1-1,1ZM6,4A1,1,0,0,1,5,3V1A1,1,0,0,1,6,0H7A1,1,0,0,1,8,1V3A1,1,0,0,1,7,4Z" transform="translate(-3)" fill="none"/>
+    <g id="Group_593" data-name="Group 593" transform="translate(-7 -5)" clip-path="url(#clip-path)">
+      <g id="Colors_Black-1" data-name="Colors/Black-1">
+        <rect id="Colors_Black-1_background" data-name="Colors/Black-1 background" width="24" height="24" fill="rgba(0,0,0,0)"/>
+        <rect id="Rectangle" width="24" height="24" fill="#555"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>freelancers_login-Desktop – 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-light header-log__in">
+    <div class="wrap-header">
+        <a class="navbar-brand" href="#"></a>
+        <div class="mobile-wrapper">
+            <a class="navbar-brand logo-mobile" href="#"></a>
+            <div class="nav-item dropdown mobile-leng">
+                <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="top-menu-lang-icon eng-flag"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">Русский</a>
+                    <a class="dropdown-item" href="#">Eesti</a>
+                    <a class="dropdown-item" href="#">Latviešu</a>
+                    <a class="dropdown-item" href="#">Lietuvių</a>
+                    <a class="dropdown-item" href="#">Deutsch</a>
+                    <a class="dropdown-item" href="#">Français</a>
+                    <a class="dropdown-item" href="#">Suomeksi</a>
+                    <a class="dropdown-item" href="#">Italiano</a>
+                    <a class="dropdown-item" href="#">Español</a>
+                </div>
+            </div>
+            <div class="search-btn__mobile"></div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle menu-leng" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="top-menu-lang-icon eng-flag"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">Русский</a>
+                        <a class="dropdown-item" href="#">Eesti</a>
+                        <a class="dropdown-item" href="#">Latviešu</a>
+                        <a class="dropdown-item" href="#">Lietuvių</a>
+                        <a class="dropdown-item" href="#">Deutsch</a>
+                        <a class="dropdown-item" href="#">Français</a>
+                        <a class="dropdown-item" href="#">Suomeksi</a>
+                        <a class="dropdown-item" href="#">Italiano</a>
+                        <a class="dropdown-item" href="#">Español</a>
+                    </div>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search"
+                           placeholder="Search freelancers, projects, jobs, agencies" aria-label="Search">
+                    <button class="header-search__btn" type="submit"></button>
+                </form>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">AGENCIES</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">FREELANCERS</a>
+                </li>
+                <li class="nav-item menu-link">
+                    <a class="nav-link" href="#">TRAINEES</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-log__wrap log-in">
+            <div class="header-log__imgWrap">
+                <a href="https://google.com"><img src="img/userAvatar.png" alt="title"></a>
+            </div>
+            <div class="header-log__email">
+                <span class="header-log__emailCount header-log__emailCount__active">5</span>
+            </div>
+            <div class="dropdown">
+                  <span class="nav-link header-log__btnWrap" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                    <div class="header-log__btnItem"></div>
+                  </span>
+                <div class="dropdown-menu menu-header__mob" aria-labelledby="navbarDropdown">
+                    <div class="freelanser-menu">
+                        <ul class="freelanser-menu--list">
+                            <li class="header-sign__btn">Sign out</li>
+                            <li class="freelanser-menu__item"><a href="#">My Profile </a></li>
+                            <li class="freelanser-menu__item"><a href="#">Messages <span
+                                    class="menu-messages__count">35</span></a></li>
+                            <li class="freelanser-menu__item"><a href="#">My CREW </a>
+                            </li>
+                            <li class="freelanser-menu__item"><a href="#">My Projects </a></li>
+                            <li class="freelanser-menu__item"><a href="#">My Jobs </a></li>
+                            <li class="freelanser-menu__item"><a href="#">My Subscription</a></li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-color__link menu-link" href="#">JOBS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">AGENCIES</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">FREELANCERS</a>
+                        </li>
+                        <li class="nav-item menu-link">
+                            <a class="nav-link" href="#">TRAINEES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="mobile-results-header">
+    <div class="mobile-results-title">
+        <h2 class="mobile-fixed-text">Hire Freelancer</h2>
+        <a href="#" class="nav-link dropdown-toggle mobile-dropdown" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">in Estonia
+        </a>
+        <div class="dropdown-menu mobile-dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">in Latvia</a>
+            <a class="dropdown-item" href="#">in Lithuania</a>
+            <a class="dropdown-item" href="#">in Finland</a>
+            <a class="dropdown-item" href="#">in Italy</a>
+        </div>
+    </div>
+    <div class="mobile-search">
+        <div class="search-wrapper">
+            <input type="text" placeholder="Skills, speciality">
+            <div class="search-icon"></div>
+        </div>
+        <div class="mob-filter-but">
+            <img src="img/filter-dots.svg" alt="">
+        </div>
+    </div>
+    <div class="mobile-sort">
+        <span>Sort by:</span>
+        <menu class="mobile-sort-list">
+            <a href="#" class="chosen">Name</a>
+            <a href="#">Rating</a>
+            <a href="#">Hourly fee</a>
+            <a href="#">Location</a>
+        </menu>
+    </div>
+</div>
+
+
+
+
+<div class="container main-container">
+    <div class="content-with-filter row">
+        <div class="filter col-lg-3 col-md-3  col-sm-3 moved-out">
+            <div class="filter-specialty__wrap">
+                <h3 class="filter-title">Specialty:</h3>
+                <label class="input-wrapp">
+                    <select class="select-subscriptionPlan" name="subscription-plan">
+                        <optgroup>
+                            <option value="r1"></option>
+                            <option value="r2">Agency plus</option>
+                            <option value="r3">Freelanser</option>
+                            <option value="r3">Freelanser plus</option>
+                            <option value="r3">Emploer</option>
+                            <option value="r3">Tainee</option>
+                        </optgroup>
+                    </select>
+                    <span class="subscription-plan__circle">▼</span>
+                </label>
+            </div>
+
+            <div class="filter-skills__wrap">
+                <h3 class="filter-title">Skills:</h3>
+                <ul>
+                    <li data-target="#Programming">
+                        <input type="checkbox" class="skills-check" name="programming" id="programming"/>
+                        <label class="post-project__main-block__item" for="programming"></label>
+                        <span class="post-project__main-block__main">Programming <span class="item-num"> (all)</span> </span>
+                        <ul class="post-project__main-block__slills" id="Programming">
+                            <li>
+                                <input type="checkbox" name="front-end-developer" id="front-end-developer">
+                                <label class="post-project__main-block__item" for="front-end-developer"></label>
+                                <span>Front-end developer</span><span class="item-num"> (332)</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="back-end-developer" id="back-end-developer">
+                                <label class="post-project__main-block__item" for="back-end-developer"></label>
+                                <span>Back-end developer</span><span class="item-num"> (204)</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="full-stack-unicom" id="full-stack-unicom"/>
+                                <label class="post-project__main-block__item" for="full-stack-unicom"></label>
+                                <span>Full-stack unicom</span> <span class="item-num"> (2)</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li data-target="#Design">
+                        <input type="checkbox" class="skills-check" name="design" id="design">
+                        <label class="post-project__main-block__item" for="design"></label>
+                        <span class="post-project__main-block__main">Design<span class="item-num"> </span></span>
+                        <ul class="post-project__main-block__slills" id="Design">
+                            <li>
+                                <input type="checkbox" name="ux-ui" id="ux-ui"/>
+                                <label class="post-project__main-block__item" for="ux-ui"></label>
+                                <span>UX/UI</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="illustration" id="illustration">
+                                <label class="post-project__main-block__item" for="illustration"></label>
+                                <span>Illustration</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li data-target="#Copyright">
+                        <input type="checkbox" class="skills-check" name="copyright-and-translation" id="copyright-and-translation">
+                        <label class="post-project__main-block__item" for="copyright-and-translation"></label>
+                        <span class="post-project__main-block__main">Copyright and translation<span class="item-num"> </span></span>
+                        <ul class="post-project__main-block__slills" id="Copyright">
+                            <li>
+                                <input type="checkbox" name="t1" id="t1"/>
+                                <label class="post-project__main-block__item" for="t1"></label>
+                                <span>text</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="t2" id="t2">
+                                <label class="post-project__main-block__item" for="t2"></label>
+                                <span>text</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li data-target="#Seo">
+                        <input type="checkbox" class="skills-check" name="seo-and-marketing" id="seo-and-marketing">
+                        <label class="post-project__main-block__item" for="seo-and-marketing"></label>
+                        <span class="post-project__main-block__main">SEO and marketing<span class="item-num"> </span></span>
+                        <ul class="post-project__main-block__slills" id="Seo">
+                            <li>
+                                <input type="checkbox" name="t3" id="t3"/>
+                                <label class="post-project__main-block__item" for="t3"></label>
+                                <span>text</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="t4" id="t4">
+                                <label class="post-project__main-block__item" for="t4"></label>
+                                <span>text</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="filter-country__wrap">
+                <h3 class="filter-title">Country:</h3>
+                <label class="input-wrapp">
+                    <select class="select-subscriptionPlan" name="subscription-plan">
+                        <optgroup>
+                            <option value="r1"></option>
+                            <option value="r2">Estonia</option>
+                            <option value="r3">Russia</option>
+                            <option value="r3">France</option>
+                            <option value="r3">Italy</option>
+                            <option value="r3">Germany</option>
+                        </optgroup>
+                    </select>
+                    <span class="subscription-plan__circle">▼</span>
+                </label>
+            </div>
+
+            <div class="filter-city__wrap">
+                <h3 class="filter-title">City:</h3>
+                <label class="input-wrapp">
+                    <select class="select-subscriptionPlan" name="subscription-plan">
+                        <optgroup>
+                            <option value="r1"></option>
+                            <option value="r2">First</option>
+                            <option value="r3">Second</option>
+                            <option value="r3">Third</option>
+                        </optgroup>
+                    </select>
+                    <span class="subscription-plan__circle">▼</span>
+                </label>
+            </div>
+
+            <div class="filter-rating__wrap">
+                <h3 class="filter-title">Rating:</h3>
+                <label class="input-wrapp from-to__wrapper">
+                    <div class="from">
+                        <span class="title-from">From</span>
+                        <select class="from-to__field" name="subscription-plan">
+                            <optgroup>
+                                <option value="r1">1</option>
+                                <option value="r2">2</option>
+                                <option value="r3">3</option>
+                                <option value="r3">4</option>
+                                <option value="r3">5</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="to">
+                        <span class="title-from">To</span>
+                        <select class="from-to__field" name="subscription-plan">
+                            <optgroup>
+                                <option value="r1">1</option>
+                                <option value="r2">2</option>
+                                <option value="r3">3</option>
+                                <option value="r3">4</option>
+                                <option value="r3">5</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </label>
+            </div>
+
+
+            <div class="filter-hrate__wrap">
+                <h3 class="filter-title">Hourly Rate</h3>
+                <div class="vars-wrapper">
+                    <div>
+                        <input type="radio" name="rb" id="rb1" checked> <label for="rb1">Any</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="rb" id="rb2"> <label for="rb2">$10 and below</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="rb" id="rb3"> <label for="rb3">$10 - $30</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rb" id="rb4"> <label for="rb4">$30 - $60</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rb" id="rb5"> <label for="rb5">$60 and above</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-language__wrap">
+                <h3 class="filter-title">Speaking languages:</h3>
+                <label class="input-wrapp">
+                    <select class="select-subscriptionPlan" name="subscription-plan">
+                        <optgroup>
+                            <option value="r1"></option>
+                            <option value="r2">Estonia</option>
+                            <option value="r3">Russia</option>
+                            <option value="r3">France</option>
+                            <option value="r3">Italy</option>
+                            <option value="r3">Germany</option>
+                        </optgroup>
+                    </select>
+                    <span class="subscription-plan__circle">▼</span>
+                </label>
+                <div class="filter-buttons">
+                    <button class="clear">Clear</button>
+                    <button class="apply">Apply</button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="freelancer-result-list col-lg-9 col-md-12 col-sm-12">
+            <div class="results-header">
+                <div class="results-title">
+                    <h2 class="fixed-text">Hire Freelancer in</h2>
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Estonia
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Latvia</a>
+                        <a class="dropdown-item" href="#">Lithuania</a>
+                        <a class="dropdown-item" href="#">Finland</a>
+                        <a class="dropdown-item" href="#">Italy</a>
+                    </div>
+                </div>
+
+                <div class="sort-pan">
+                    <span>Sort by:</span>
+                    <menu class="filter-menu">
+                        <a href="#" class="chosen">Name</a>
+                        <a href="#">Rating</a>
+                        <a href="#">Hourly fee</a>
+                        <a href="#">Location</a>
+                        <div class="sort-arrow-up"></div>
+                        <div class="sort-arrow-down"></div>
+                    </menu>
+                </div>
+            </div>
+
+
+            <div class="results-body row">
+                <div class="list-wrapper">
+
+
+
+
+                    <div class="freelancer-block" onclick="location.href='http://google.com'">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/marius.png')">
+                                <div class="indicator"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Marius Valeyr</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-favorite"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/first-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/second-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/third-item.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="freelancer-block" onclick="location.href='http://google.com'">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/victor.png')">
+                                <div class="indicator"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                                <div class="lang-icon eng-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Viktor Abraham</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-favorite"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/ex1.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex2.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex3.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="freelancer-block" onclick="location.href='http://google.com'">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/laura.png')">
+                                <div class="indicator offline"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                                <div class="lang-icon eng-flag"></div>
+                                <div class="lang-icon ger-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Laura Hancks</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-heart"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/ex4.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex5.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex6.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="freelancer-block" onclick="location.href='http://google.com'">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/marius.png')">
+                                <div class="indicator"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Marius Valeyr</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-favorite"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/first-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/second-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/third-item.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="freelancer-block" onclick="location.href='http://google.com'">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/victor.png')">
+                                <div class="indicator"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                                <div class="lang-icon eng-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Viktor Abraham</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-favorite"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/ex1.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex2.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex3.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="freelancer-block" onclick="location.href='http://google.com'">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/laura.png')">
+                                <div class="indicator offline"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                                <div class="lang-icon eng-flag"></div>
+                                <div class="lang-icon ger-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Laura Hancks</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-heart"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/ex4.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex5.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex6.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="freelancer-block" onclick="location.href='http://google.com'">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/marius.png')">
+                                <div class="indicator"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Marius Valeyr</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-favorite"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/first-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/second-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/third-item.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="freelancer-block" onclick="location.href='http://google.com'">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/victor.png')">
+                                <div class="indicator"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                                <div class="lang-icon eng-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Viktor Abraham</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-favorite"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/ex1.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex2.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex3.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="freelancer-block" onclick="location.href='http://google.com'">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/laura.png')">
+                                <div class="indicator offline"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                                <div class="lang-icon eng-flag"></div>
+                                <div class="lang-icon ger-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Laura Hancks</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-heart"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/ex4.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex5.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/ex6.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="freelancer-block" onclick="location.href='http://google.com'">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/marius.png')">
+                                <div class="indicator"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Marius Valeyr</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-favorite"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/first-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/second-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/third-item.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="freelancer-block hidden">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/marius.png')">
+                                <div class="indicator"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Marius Valeyr</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-favorite"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/first-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/second-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/third-item.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="freelancer-block hidden">
+                        <div class="freelancer-left-col">
+                            <div class="freelancer-icon" style="background-image: url('img/marius.png')">
+                                <div class="indicator"></div>
+                            </div>
+                            <div class="price">
+                                <span>20€/h</span>
+                            </div>
+                            <div class="countries">
+                                <div class="lang-icon est-flag"></div>
+                                <div class="lang-icon rus-flag"></div>
+                            </div>
+                        </div>
+                        <div class="freelancer-right-col" style="line-height: initial;">
+                            <div class="right-top-pan">
+                                <div class="pan-left-col">
+                                    <h3 class="freelancer-name">Marius Valeyrqq</h3>
+                                    <div class="rating-item__star freelancer-rate"><span>(15)</span></div>
+                                </div>
+                                <div class="pan-right-col">
+                                    <div class="freelancer-favorite"></div>
+                                </div>
+                            </div>
+                            <span class="freelancer-description">Logo Designer, Web Designer, Icons Maker /<span class="freelancer-skills"> Sketch, Photoshop, Illustra...</span></span>
+                            <div class="saved-project__location freelancer-country">
+                                <span class="saved-project__location-town">Pärnu</span>,<span class="saved-project__location-town">Estonia</span>
+                            </div>
+                            <div class="freelancer-portfolio">
+                                <div class="portfolio-item" style="background-image: url('img/first-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/second-item.png')"></div>
+                                <div class="portfolio-item" style="background-image: url('img/third-item.png')"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="load-more__freelancers">Load more</span>
+
+
+
+                </div>
+                <div class="col-xl-2 col-xs-0"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-12 text-center">
+                <div class="footer-create__btn">Create Protfolio</div>
+                <div class="footer-freelanser__btn">Hire Freelancer</div>
+                <a class="footer-link" href="#">F.A.Q.</a>
+                <a class="footer-link" href="#">PRIVACY POLICY</a>
+                <a class="footer-link" href="#">Terms and Conditions</a>
+
+            </div>
+            <div class="col-lg-1 col-md-0"></div>
+            <div class="col-lg-3 col-md-12">
+                <h4 class="footer-list__title">Freelancers & Agencies</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">Create Portfolio</a></li>
+                    <li class="footer-list__item"><a href="#">Find Project</a></li>
+                    <li class="footer-list__item"><a href="#">Find Job</a></li>
+                    <li class="footer-list__item"><a href="#">EASYCREW Chat <span class="telegram-icon"></span></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-12">
+                <h4 class="footer-list__title">Employer</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">Hire Freelancer</a></li>
+                    <li class="footer-list__item"><a href="#">Post Project</a></li>
+                    <li class="footer-list__item"><a href="#">Post Job</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-0"></div>
+            <div class="col-lg-3 col-md-12">
+                <h4 class="footer-list__title">About</h4>
+                <ul class="footer-list__wrap">
+                    <li class="footer-list__item"><a href="#">How EASYCREW works</a></li>
+                    <li class="footer-list__item"><a href="#">Freelance HOW-TO</a></li>
+                    <li class="footer-list__item"><a href="#">Pricing</a></li>
+                    <li class="footer-list__item"><a href="#">Blog</a></li>
+                    <li class="footer-list__item"><a href="#">Support and contacts</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row footer-bottom__wrap">
+            <div class="col-lg-4">
+                <div class="footer-appBtn__wrap">
+                    <a href="#" class="footer-appBtn__google"></a>
+                    <a href="#" class="footer-appBtn__apple"></a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="footer-social__wrap">
+                    <a href="#" class="footer-social__item social-telegram"></a>
+                    <a href="#" class="footer-social__item social-facebook"></a>
+                    <a href="#" class="footer-social__item social-instagram"></a>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3 align-center">
+                <h4 class="footer-copyright">EASYCREW OÜ | All Rights Reserved</h4>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
